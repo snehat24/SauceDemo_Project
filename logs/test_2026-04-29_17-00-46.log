@@ -1,0 +1,4 @@
+2026-04-29 17:00:46,034 | INFO     | Session started → logs\test_2026-04-29_17-00-46.log
+2026-04-29 17:00:52,052 | INFO     | execution started for TC03_Add_to_cart
+2026-04-29 17:00:52,054 | INFO     | assigned login in page and performing add_to_cart
+2026-04-29 17:00:52,262 | INFO     | successfully added to cart

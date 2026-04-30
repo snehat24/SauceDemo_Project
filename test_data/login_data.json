@@ -1,0 +1,17 @@
+[
+  {
+    "username" : "visual_user",
+    "password" : "secret_sauce",
+    "result" : "Pass"
+},
+  {
+    "username" : "standard_user",
+    "password" : "secret_sauce",
+    "result" : "Pass"
+  },
+  {
+    "username" : "error_user",
+    "password" : "user",
+    "result" : "Fail"
+  }
+]

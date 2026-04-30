@@ -1,0 +1,17 @@
+2026-04-28 12:36:48,226 | INFO     | Session started → logs\test_2026-04-28_12-36-48.log
+2026-04-28 12:36:51,060 | INFO     | Opening website
+2026-04-28 12:36:54,696 | INFO     | Performing login
+2026-04-28 12:36:56,266 | INFO     | Verifying login success
+2026-04-28 12:36:56,439 | INFO     | Test completed successfully
+2026-04-28 12:37:01,532 | INFO     | this is TC02_login_datadriven
+2026-04-28 12:37:04,569 | INFO     | after launching website , performing login
+2026-04-28 12:37:05,498 | INFO     | Verifying login success
+2026-04-28 12:37:05,696 | INFO     | Test completed successfully
+2026-04-28 12:37:09,977 | INFO     | this is TC02_login_datadriven
+2026-04-28 12:37:13,469 | INFO     | after launching website , performing login
+2026-04-28 12:37:14,469 | INFO     | Verifying login success
+2026-04-28 12:37:14,547 | INFO     | Test completed successfully
+2026-04-28 12:37:18,803 | INFO     | this is TC02_login_datadriven
+2026-04-28 12:37:22,489 | INFO     | after launching website , performing login
+2026-04-28 12:37:23,054 | INFO     | Verifying login success
+2026-04-28 12:37:23,117 | INFO     | Test completed successfully
