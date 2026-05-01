@@ -17,25 +17,30 @@ def env(request):
     return request.config.getoption("--env")
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def browser():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        yield browser
-        browser.close()
+    from playwright.sync_api import sync_playwright
+
+    playwright = sync_playwright().start()
+    browser = playwright.chromium.launch(headless=False)
+
+    yield browser
+
+    browser.close()
+    playwright.stop()
 
 
 @pytest.fixture
 def login_page(browser, env):
-    context = browser.new_context()
-    context.tracing.start(screenshots=True, snapshots=True, sources=True)
-    page = context.new_page()
 
     if os.path.exists("state.json"):
         context = browser.new_context(storage_state="state.json")
         page = context.new_page()
         page.goto(URLS[env] + "inventory.html")
     else:
+        context = browser.new_context()
+        context.tracing.start(screenshots=True, snapshots=True, sources=True)
+        page = context.new_page()
         page.goto(URLS[env])
         login_page = LoginPage(page)
         login_page.login(USERNAME, PASSWORD)
