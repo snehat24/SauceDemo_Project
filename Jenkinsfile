@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'pytest -v'
+                bat 'pytest -v -p no:asyncio'
             }
         }
     }
