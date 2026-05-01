@@ -1,0 +1,5 @@
+2026-05-02 01:54:02,570 | INFO     | Session started → logs\test_2026-05-02_01-54-02.log
+2026-05-02 01:54:04,884 | INFO     | Opening website
+2026-05-02 01:54:08,106 | INFO     | Performing login
+2026-05-02 01:54:08,806 | INFO     | Verifying login success
+2026-05-02 01:54:08,851 | INFO     | Test completed successfully

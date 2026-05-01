@@ -1,0 +1,20 @@
+2026-05-02 01:54:35,632 | INFO     | Session started → logs\test_2026-05-02_01-54-35.log
+2026-05-02 01:54:38,017 | INFO     | Opening website
+2026-05-02 01:54:41,159 | INFO     | Performing login
+2026-05-02 01:54:41,626 | INFO     | Verifying login success
+2026-05-02 01:54:41,684 | INFO     | Test completed successfully
+2026-05-02 01:54:45,653 | INFO     | this is TC02_login_datadriven
+2026-05-02 01:54:48,916 | INFO     | after launching website , performing login
+2026-05-02 01:54:49,237 | INFO     | Verifying login success
+2026-05-02 01:54:49,268 | INFO     | Test completed successfully
+2026-05-02 01:54:52,213 | INFO     | execution started for TC03_Add_to_cart
+2026-05-02 01:54:52,214 | INFO     | assigned login in page and performing add_to_cart
+2026-05-02 01:54:52,303 | INFO     | successfully added to cart
+2026-05-02 01:54:52,892 | INFO     | this is TC02_login_datadriven
+2026-05-02 01:54:56,015 | INFO     | after launching website , performing login
+2026-05-02 01:54:56,313 | INFO     | Verifying login success
+2026-05-02 01:54:56,341 | INFO     | Test completed successfully
+2026-05-02 01:54:57,078 | INFO     | this is TC02_login_datadriven
+2026-05-02 01:54:59,989 | INFO     | after launching website , performing login
+2026-05-02 01:55:00,180 | INFO     | Verifying login success
+2026-05-02 01:55:00,202 | INFO     | Test completed successfully
