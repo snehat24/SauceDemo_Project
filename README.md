@@ -1,66 +1,67 @@
-SauceDemo Playwright Automation Framework
+# SauceDemo Playwright Automation Framework
 
-Overview
+## Overview
 
-This project was built to practice automation testing using Python, Playwright, and Pytest. 
-It automates key SauceDemo user flows including login, product sorting, add-to-cart, checkout, and logout. The framework follows the Page Object Model (POM) design pattern and uses Pytest fixtures for better code reusability and maintainability
+This project was built to practice automation testing using Python, Playwright, and Pytest.
+It automates key SauceDemo user flows including login, product sorting, add-to-cart, checkout, and logout.
+The framework follows the Page Object Model (POM) design pattern and uses Pytest fixtures for better code reusability and maintainability.
 
-Tech Stack
+## Tech Stack
 
-Python
-Playwright (Sync API)
-Pytest
-Page Object Model (POM)
-Pytest Fixtures
-HTML Reports
-Logging
+* Python
+* Playwright (Sync API)
+* Pytest
+* Page Object Model (POM)
+* Pytest Fixtures
+* HTML Reports
+* Logging
 
-Project Structure
+## Project Structure
 
-pages/           -> Page Object classes 
-tests/           -> Test cases
-utils/           -> Logger, helpers
-config.py        -> Environment & test configuration
-conftest.py      -> Fixtures & hooks
-state.json       -> Session storage for login reuse
-requirements.txt -> Tools needs to be installed
+* `pages/` → Page Object classes
+* `tests/` → Test cases
+* `utils/` → Logger and helper files
+* `config.py` → Environment and test configuration
+* `conftest.py` → Fixtures and Pytest hooks
+* `state.json` → Session storage for login reuse
+* `requirements.txt` → Required dependencies
 
-Features Covered
+## Features Covered
 
-Positive Scenarios
+### Positive Scenarios
 
-Login with valid credentials
+* Login with valid credentials
+* Add product to cart
+* Remove product from cart
+* Product sorting
+* Checkout flow
+* Logout functionality
 
-Add product to cart
+### Negative Scenarios
 
-Remove product from cart
+* Login with invalid credentials
+* Checkout without filling mandatory fields
 
-Product sorting
+## Execution
 
-Checkout flow
+### Run all tests
 
-Logout functionality
-
-
-
-Negative Scenarios
-
-Login with invalid credentials
-
-Checkout without filling mandatory fields
-
-Execution
-Run all tests
+```bash
 pytest -v
+```
 
-Run with browser
+### Run with browser
+
+```bash
 pytest --browser chromium
+```
 
-Run specific test
+### Run specific test
+
+```bash
 pytest tests/test_TC01_login.py
+```
 
-
-
-Author
+## Author
 
 Sneha
