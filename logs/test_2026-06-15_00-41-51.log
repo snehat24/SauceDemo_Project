@@ -1,0 +1,6 @@
+2026-06-15 00:41:51,384 | INFO     | Session started → logs\test_2026-06-15_00-41-51.log
+2026-06-15 00:41:56,828 | INFO     | Execution started for test_TC09_Checkout_without_address
+2026-06-15 00:41:56,829 | INFO     | assigned login in page and performing checkout process
+2026-06-15 00:41:57,069 | INFO     | item added to cart 
+2026-06-15 00:41:57,263 | INFO     | Continue checkkout process without filling address details
+2026-06-15 00:41:57,405 | INFO     | verifying if we can checkout without filling address details

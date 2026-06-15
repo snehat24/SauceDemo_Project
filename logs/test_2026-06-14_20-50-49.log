@@ -1,0 +1,6 @@
+2026-06-14 20:50:49,101 | INFO     | Session started → logs\test_2026-06-14_20-50-49.log
+2026-06-14 20:50:52,647 | INFO     | execution started for test_TC04_sorting
+2026-06-14 20:50:52,647 | INFO     | assigned login in page and performing add_to_cart
+2026-06-14 20:50:52,756 | INFO     | clicked dropdown sorting option
+2026-06-14 20:50:52,767 | INFO     | verifying if sort is worked or not
+2026-06-14 20:50:52,768 | INFO     | successfully sorted page

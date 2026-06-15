@@ -1,0 +1,4 @@
+2026-06-14 21:14:38,117 | INFO     | Session started → logs\test_2026-06-14_21-14-38.log
+2026-06-14 21:14:39,998 | INFO     | execution started for test_TC05_Login_with_Invalid
+2026-06-14 21:14:42,927 | INFO     | login with invalid credentials
+2026-06-14 21:14:43,217 | INFO     | successfully verified the login with invalid credentials

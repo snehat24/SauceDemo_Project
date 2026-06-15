@@ -1,0 +1,3 @@
+2026-06-14 15:57:53,101 | INFO     | Session started → logs\test_2026-06-14_15-57-53.log
+2026-06-14 15:57:57,828 | INFO     | execution started for test_TC04_sorting
+2026-06-14 15:57:57,829 | INFO     | assigned login in page and performing add_to_cart

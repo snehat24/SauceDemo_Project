@@ -1,0 +1,5 @@
+2026-06-15 00:27:11,193 | INFO     | Session started → logs\test_2026-06-15_00-27-11.log
+2026-06-15 00:27:15,191 | INFO     | Execution started for test_TC08_Remove_from_cart
+2026-06-15 00:27:15,192 | INFO     | assigned login in page and performing remove process
+2026-06-15 00:27:15,415 | INFO     | after added to cart we continue to remove it from cart
+2026-06-15 00:27:15,473 | INFO     | successfully removed from cart

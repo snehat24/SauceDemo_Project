@@ -1,0 +1,4 @@
+2026-06-14 22:17:11,747 | INFO     | Session started → logs\test_2026-06-14_22-17-11.log
+2026-06-14 22:17:15,519 | INFO     | Execution started for test_TC06_Checkout
+2026-06-14 22:17:15,519 | INFO     | assigned login in page and performing checkout process
+2026-06-14 22:17:15,663 | INFO     | item added to cart and continue checkkout process

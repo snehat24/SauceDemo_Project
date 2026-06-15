@@ -1,0 +1,3 @@
+2026-06-14 23:47:28,929 | INFO     | Session started → logs\test_2026-06-14_23-47-28.log
+2026-06-14 23:47:33,499 | INFO     | Execution started for test_TC07_Logout
+2026-06-14 23:47:33,500 | INFO     | assigned login in page and performing logout process
